@@ -907,14 +907,18 @@ form{
   flex-direction: column;
 /*    width: 60%;*/
 }
+.reg-texts{
+  margin-top: 10px;
+}
 .reg_text1{
   margin: 0;
-  margin-left: -333px;
-  position: relative;
-  font-size: 45px;
- display: flex;
-  justify-content: center;
-  align-items: center;
+    margin-top: 50px;
+    margin-left: -333px;
+    position: relative;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   color: #fff;
   -webkit-animation: anim2 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
           animation: anim2 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
@@ -924,7 +928,7 @@ form{
 .reg_text{
   display: flex;
     margin-left: -333px;
-    font-size: 25px;
+    font-size: 35px;
   justify-content: center;
   align-items: center;
   color: #fff;
@@ -956,26 +960,27 @@ form{
 }
 .teacher_1{
   float: right;
-  display: flex;
-  justify-content: center;
-  position: relative;
-  left: 120px;
-  top: 15px;
-  text-align: center;
-  margin: 15px;
-  border-radius: 5px;
-  padding: 5px 25px;
-   background: #D3C9E3;
-    color:#401584;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 780px;
+    top: 15px;
+    font-size: 25px;
+    text-align: center;
+    margin: 15px;
+    border-radius: 5px;
+    padding: 15px 35px;
+    background: #D3C9E3;
+    color: #401584;
     
 }
 
 
 .lang{
     margin-top: 20px;
-    margin-left: 10px;
-  height: 35px;
-  width:55px;
+    margin-left: 20px;
+  height: 45px;
+  width:65px;
   background:#8267AD; 
   border: 10px solid #8267AD;
   border-radius: 10px;
@@ -986,8 +991,7 @@ form{
 
 .dropdown { 
   width: 30px;
-  float: left;
-  margin-left:-120px;
+  margin-left:-400px;
   margin-right: 0px;
   position: relative;
   display: inline-block;
@@ -1005,6 +1009,7 @@ display: flex;
   position: absolute;
   background-color: #8267AD;
   border-radius: 10px;
+  margin-left: 19px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   padding: 12px 16px;
   z-index: 1;
@@ -1031,9 +1036,10 @@ form{
   left: 0px;
 }
 .input{
-    margin: 50px;
+    margin: 40px;
+    margin-bottom: 25px;
     display: block;
-    width: 450px;
+    width: 630px;
   border: none;
   border-radius: 15px; 
   padding: 40px;
@@ -1055,7 +1061,7 @@ form{
 .login_but{
   margin-left:auto;
   margin-right: auto;
-  margin-top: 15px;
+  margin-top: 30px;
   margin-bottom: 15px;
   display: flex;
   justify-content: center;
@@ -1079,7 +1085,7 @@ form{
 
 .log-span{
   color: white;
-  font-size: 20px;
+  font-size: 30px;
 
 }
 
@@ -1087,15 +1093,16 @@ form{
 .checkbox{
   margin-left: 15px;
   margin-right: 5px;
-  height: 25px;
-  width: 25px;
+  height: 40px;
+  width: 40px;
   border-radius: 2px;
   box-shadow: 0 0 0 2px white inset;
 }
 
 .radio{
   margin: 0;
-  margin-right: 130px;
+  margin-right: 200px;
+  margin-bottom: 15px;
    max-height: 100%;
    max-width: 100%;
   height: 40px;
@@ -1108,7 +1115,7 @@ form{
   display: flex;
   justify-content: center;
   position: relative;
-    left: -160px;
+    left: -165px;
 }
 
 .icon{
