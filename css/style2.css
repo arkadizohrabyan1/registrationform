@@ -338,8 +338,6 @@ form{
 .reg{
 /*  width: 400px;*/
   align-items: center;
-  max-height: 450px;
-  overflow-y: scroll;
 }
 .login_but{
   margin-left:auto;
