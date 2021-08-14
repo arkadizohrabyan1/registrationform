@@ -523,6 +523,14 @@ display: flex;
     height: 100%;
     /*width: 60%;*/
 }
+  .lang{
+  height: 30px;
+  width:45px;
+  background:#8267AD; 
+  border: 10px solid #8267AD;
+  border-radius: 10px;
+}
+
 .canvas{
   float: left;
   height: 100%;
