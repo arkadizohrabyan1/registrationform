@@ -503,7 +503,7 @@ display: flex;
   .main_img{
     left: 120px;
     bottom: 0px;
-    height: 0%;
+    height: 90%;
     border-top-right-radius: 380px;
   border-bottom-right-radius: 200px;
   margin: 0;
