@@ -558,9 +558,10 @@ form{
 }
 .reg_text{
   margin-bottom: 30px;
-  font-size: 15px;
+  font-size: 30px;
   display: flex;
   position: relative;
+  left:525;
   justify-content: center;
   align-items: center;
   color: #fff;
@@ -571,7 +572,7 @@ form{
 .reg_text1{
   margin-top:70px;
   margin-bottom: 10px; 
-  font-size: 25px;
+  font-size: 50px;
   position: relative;
   left: 530px;
  display: flex;
