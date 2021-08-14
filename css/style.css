@@ -30,6 +30,7 @@ body{
     height: 100%;
     /*width: 60%;*/
 }
+  .lang{ height: 20px; width:35px; background:#8267AD; border: 10px solid #8267AD; border-radius: 10px; }
 .canvas{
   float: left;
   height: 100%;
