@@ -561,6 +561,7 @@ form{
   font-size: 20px;
   display: flex;
   position: relative;
+  left: 530px;
   justify-content: center;
   align-items: center;
   color: #fff;
@@ -573,6 +574,7 @@ form{
   margin-bottom: 10px; 
   font-size: 35px;
   position: relative;
+  left: 530px;
  display: flex;
   justify-content: center;
 /*  align-items: center;*/
