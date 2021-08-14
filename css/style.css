@@ -530,7 +530,9 @@ display: flex;
   border: 10px solid #8267AD;
   border-radius: 10px;
 }
-
+  .button{
+  font-size:20px;
+  }
 .canvas{
   float: left;
   height: 100%;
@@ -825,19 +827,6 @@ form{
 .dropdowns { 
 display: flex;
 }
-}
-
-
-
-
-
-.lang{
-
-  height: 20px;
-  width:35px;
-  background:#8267AD; 
-  border: 10px solid #8267AD;
-  border-radius: 10px;
 }
 
 .dd-cont {
