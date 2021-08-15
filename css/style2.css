@@ -5,116 +5,20 @@ body{
   font-family: Bradley Hand, cursive;
 }
 
-.container{
 
-  max-width: 60%;
-  float: right;
-    background:linear-gradient( #3E1381 0%, #5B2AA9 90%);
-    height: 100%;
-    width: 60%;
+
+::placeholder{
+  color: #CCCCCC;
 }
 
-.reg_text1{
-  margin: 20px 0 0 0;
-  position: relative;
-  font-size: 30px;
- display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-  -webkit-animation: anim2 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-          animation: anim2 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-          cursor: default;
+.login_but:hover{
+  animation: login 0.5s infinite;
 }
-
-.reg_text{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-  -webkit-animation: anim2 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-          animation: anim2 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-          cursor: default;
-}
-
-.reg-texts .reg_text{
-  margin-bottom: 20px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
-
-
-.regg{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  margin-bottom: 10px;
-}
-
-.main_img{
-  max-height: 90%;
-  margin: 0;
-  display: block;
-  position: fixed;
-  bottom: 0px;
-  left: 120px;
-  height: 90%;
-  border-top-right-radius: 230px;
-  border-bottom-right-radius: 100px;
-}
-
-
-.teacher{
-  float: left;
-  text-align: center;
-  margin: 20px 120px;
-  border-radius: 5px;
-  padding: 10px 30px;
-   background: #D3C9E3;
-    color:#401584;
-    
-}
-
-
-.lang{
-    margin-top: 20px;
-  height: 20px;
-  width:35px;
-  background:#8267AD; 
-  border: 10px solid #8267AD;
-  border-radius: 10px;
-}
-
-
-/*dropdown1*/
-
-.dropdown { 
-  width: 30px;
-  float: left;
-  margin-left:20px;
-  margin-right: 0px;
-  position: relative;
-  display: inline-block;
-
-}
-
-.dropdowns { 
-display: flex;
-}
-
-
-
-.dd-cont {
-  display: none;
-  position: absolute;
-  background-color: #8267AD;
-  border-radius: 10px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  padding: 12px 16px;
-  z-index: 1;
-  
+.checkbox:hover{
+  box-shadow: 0 0 0 2px #B5B5B5 inset;
+    animation: forgot 0.2s ease-in-out infinite alternate;
+        -webkit-animation: forgot 0.2s ease-in-out infinite alternate;
+        cursor: pointer;
 }
 
 
@@ -130,9 +34,6 @@ display: flex;
 -webkit-animation: vibracia 0.4s linear infinite both;
           animation: vibracia 0.4s linear infinite both;
 }
-
-
-/*dropdown2*/
 
 .dropdown2{
   color: #fff;
@@ -174,122 +75,6 @@ display: flex;
   text-decoration: none;
 }
 
-
-form{
-  display: inline-block;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  position: relative;
-  left: 200px;
-}
-.input{
-    margin: 30px;
-    display: block;
-    width: 370px;
-  border: none;
-  border-radius: 5px; 
-  padding: 20px;
-    background: #856AB2;
-    color: white;
-    font-size: 15px;
-    -webkit-animation: anim2 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-          animation: anim2 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-}
-
-
-
-::placeholder{
-  color: #CCCCCC;
-}
-
-.reg{
-/*  width: 400px;*/
-  align-items: center;
-  max-height: 450px;
-  overflow-y: scroll;
-
-}
-
-
-.login_but{
-  margin-left:auto;
-  margin-right: auto;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  display: flex;
-  justify-content: center;
-  padding: 15px 50px;
-  color: white;
-  border: none;
-  border-radius: 8px;
-  background: #3699FF;
-  cursor: pointer;
-
-}
-
-.login_but:hover{
-  animation: login 0.5s infinite;
-}
-
-.buttons{
-  display: flex;
-  justify-content: flex-start;
-  margin-left: 18px;
-  align-content: center;
-  align-items: center;
-}
-
-.log-span{
-  color: white;
-  font-size: 13px;
-}
-
-
-.checkbox{
-  margin-left: 15px;
-  margin-right: 5px;
-  height: 15px;
-  width: 15px;
-  border-radius: 2px;
-  box-shadow: 0 0 0 2px white inset;
-}
-
-.checkbox:hover{
-  box-shadow: 0 0 0 2px #B5B5B5 inset;
-    animation: forgot 0.2s ease-in-out infinite alternate;
-        -webkit-animation: forgot 0.2s ease-in-out infinite alternate;
-        cursor: pointer;
-}
-
-.radio{
-  margin: 0;
-   max-height: 100%;
-   max-width: 100%;
-  height: 40px;
-  width: 40px;
-  border-radius: 20px;
-  box-shadow: 0 0 0 2px white inset;
-}
-
-.radios{
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.icon{
-  height: 10%;
-  width: 10%;
-  background: #42246E;
-  border-radius: 10px;
-  padding: 5px 10px;
-}
-
-
-.socbut{
-  display: flex;
-  justify-content: space-evenly;
-    align-items: baseline;
-}
 
 #username{
   margin-top: 20px;
@@ -357,5 +142,630 @@ form{
   }
   100% {
     opacity: 1;
+  }
+}
+
+.main_img{
+  max-width: 100%;
+  margin: 0;
+  display: block;
+  position: fixed;
+  bottom: 0px;
+  left: 120px;
+  height: auto;
+  border-top-right-radius: 230px;
+  border-bottom-right-radius: 100px;
+}
+
+.container{
+  max-width: 60%;
+  float: right;
+    background:linear-gradient( #3E1381 0%, #5B2AA9 90%);
+    /*height: 100%;*/
+    width: 60%;
+}
+
+.reg_text1{
+  margin: 20px 0 0 0;
+  position: relative;
+  font-size: 30px;
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  -webkit-animation: anim2 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+          animation: anim2 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+          cursor: default;
+}
+
+.reg_text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  -webkit-animation: anim2 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+          animation: anim2 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+          cursor: default;
+}
+
+.reg-texts .reg_text{
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.regg{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.teacher_1{
+  display: none;
+}
+.teacher{
+  float: left;
+  text-align: center;
+  margin: 20px 120px;
+  border-radius: 5px;
+  padding: 10px 30px;
+   background: #D3C9E3;
+    color:#401584;
+    
+}
+
+
+.lang{
+    margin-top: 20px;
+  height: 20px;
+  width:35px;
+  background:#8267AD; 
+  border: 10px solid #8267AD;
+  border-radius: 10px;
+}
+
+.dropdown { 
+  width: 30px;
+  float: left;
+  margin-left:20px;
+  margin-right: 0px;
+  position: relative;
+  display: inline-block;
+}
+
+.dropdowns { 
+display: flex;
+}
+
+.dd-cont {
+  display: none;
+  position: absolute;
+  background-color: #8267AD;
+  border-radius: 10px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+form{
+  display: inline-block;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  position: relative;
+  left: 200px;
+}
+.input{
+  position: relative;
+  left: 10px;
+    margin: 30px 0px;
+    display: block;
+    width: 360px;
+  border: none;
+  border-radius: 5px; 
+  padding: 20px;
+    background: #856AB2;
+    color: white;
+    font-size: 15px;
+    -webkit-animation: anim2 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+          animation: anim2 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+
+.reg{
+/*  width: 400px;*/
+  align-items: center;
+
+}
+
+
+.login_but{
+  margin-left:auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+  padding: 15px 50px;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  background: #3699FF;
+  cursor: pointer;
+
+}
+
+
+
+.buttons{
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: center;
+}
+
+.log-span{
+  color: white;
+  font-size: 13px;
+}
+
+
+.checkbox{
+  margin-left: 15px;
+  margin-right: 5px;
+  height: 15px;
+  width: 15px;
+  border-radius: 2px;
+  box-shadow: 0 0 0 2px white inset;
+}
+
+.radio{
+  margin: 0px 50px;
+   max-height: 100%;
+   max-width: 100%;
+   position: relative;
+   left: -25px;
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 0 2px white inset;
+}
+
+.radios{
+  display: flex;
+  justify-content: center;
+  margin: 0px 100px;
+
+}
+
+.icon{
+  height: 10%;
+  width: 10%;
+  background: #42246E;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+
+.socbut{
+  display: flex;
+  justify-content: space-evenly;
+    align-items: baseline;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1920px) {
+  .main_img{
+    height: 90%;
+    border-top-right-radius: 350px;
+    border-bottom-right-radius: 200px;
+  }
+  form{
+    left: 370px;
+  }
+  .container{
+    height: 100%;
+  }
+}
+
+@media (max-width: 1800px) {
+   form{
+    left: 335px;
+   }
+}
+
+@media (max-width: 1650px) {
+  .main_img{
+    height: 85%;
+  }
+   form{
+    left: 285px;
+   }
+}
+
+@media (max-width: 1600px) {
+   .main_img{
+    height: 90%;
+    border-top-right-radius: 250px;
+    border-bottom-right-radius: 160px;
+  }
+  form{
+    left: 275px;
+  }
+  .container{
+    height: 110%;
+  }
+  .radio{
+    height: 35px;
+    width: 35px;
+  }
+  .input{
+    padding: 19px;
+  }
+ .buttons{
+  margin-top: -10px;
+ }
+}
+
+@media (max-width: 1500px) {
+   form{
+    left: 245px;
+   }
+}
+
+
+@media (max-width: 1440px){
+.main_img{
+    border-top-right-radius: 280px;
+    border-bottom-right-radius: 160px;
+  }
+   .reg_text1{
+    position: relative;
+    left: 70px;
+   }
+   .reg_text{
+    position: relative;
+    left: 70px;
+   }
+   .reg{
+    position: relative;
+    left: 70px;
+   }
+   form{
+    left: 225px;
+   }
+}
+
+@media (max-width: 1366px)/*and (max-height: 625px)*/{
+  .main_img{
+    border-top-right-radius: 250px;
+    border-bottom-right-radius: 140px;
+  }
+.container{
+  height: 133%;
+}
+form{
+  left: 205px;
+}
+}
+
+@media (max-width: 1024px)/*and (max-height: 625px)*/{
+ .main_img{
+  height: 75%;
+  border-top-right-radius: 210px;
+    border-bottom-right-radius: 140px;
+ }
+ .input{
+  width: 300px;
+ }
+ form{
+  left: 150px;
+ }
+.reg{
+  margin-left: 55px;
+  left: 0;
+}
+.regg{
+  left: 0;
+}
+.reg_text1{
+  margin-left: 150px;
+  left: 0;
+}
+.reg_text{
+  left: 0;
+  margin-left: 150px;
+}
+.radio{
+  position: relative;
+  left: 23px;
+}
+}
+
+@media (max-width: 768px) {
+  .main_img{
+    display: none;
+  }
+  .container{
+    height: 175%;
+    max-width: 100%;
+    width: 100%;
+  }
+  .teacher{
+    position: absolute;
+    left: 500px;
+  }
+  .reg_text1{
+    margin-top: 70px;
+    margin-left:0;
+    font-size: 45px; 
+  }
+  .reg_text{
+    margin-left:0; 
+    font-size: 25px; 
+  }
+  .radio{
+    margin-right: 77px;
+    left: -50px;
+    height: 45px;
+    width: 45px;
+    border-radius: 25px;
+  }
+  .input{
+    padding: 30px;
+    width: 450px;
+    height: 35px;
+    border-radius: 10px;
+    font-size: 25px;
+  }
+  form{
+    left: 65px;
+  }
+  .checkbox{
+     height: 30px;
+    width: 30px;
+  }
+  .log-span {
+    font-size: 20px;
+}
+.login_but{
+  padding: 25px 60px;
+  font-size: 20px;
+}
+}
+
+@media (max-width: 745px){
+  .teacher{
+    left: 480px;
+  }
+}
+
+
+@media (max-width: 470px){
+  .main_img{
+    display: none;
+  }
+  .container{
+    max-width: 100%;
+    width: 100%;
+  }
+  .teacher{
+    position: absolute;
+    left: 210px;
+  }
+  .reg_text1{
+    font-size: 30px; 
+  }
+  .reg_text{ 
+    font-size: 15px; 
+  }
+  .reg{
+    margin-left: 0;
+  }
+  .radios{
+    margin: 0;
+  }
+  .radio{
+    margin-right: 50px;
+    left: -25px;
+    height: 35px;
+    width: 35px;
+    border-radius: 25px;
+  }
+  .input{
+    left: 0px;
+    padding: 15px;
+    width: 300px;
+    /*height: 35px;*/
+    border-radius: 5px;
+    font-size: 15px;
+  }
+  form{
+    left: 70px;
+  }
+  .checkbox{
+     height: 30px;
+    width: 30px;
+  }
+  .log-span {
+    font-size: 15px;
+}
+.login_but{
+  padding: 15px 50px;
+  font-size: 15px;
+}
+.checkbox{
+  height: 20px;
+  width: 20px;
+}
+
+}
+
+
+@media (max-width: 450px){
+
+  .teacher{
+    position: absolute;
+    left: 170px;
+  }
+  .reg_text1{
+    margin-left: -15px;
+    font-size: 28px; 
+  }
+  .reg_text{ 
+    margin-left: -15px;
+    font-size: 16px; 
+  }
+  .reg{
+    margin-left: 0;
+  }
+  .radios{
+    margin: 0;
+  }
+  .radio{
+    margin-right: 50px;
+    left: -34px;
+    height: 35px;
+    width: 35px;
+    border-radius: 25px;
+  }
+  .input{
+    left: 0px;
+    padding: 15px;
+    width: 300px;
+    /*height: 35px;*/
+    border-radius: 5px;
+    font-size: 15px;
+  }
+  form{
+    left: 50px;
+  }
+  .checkbox{
+     height: 30px;
+    width: 30px;
+  }
+  .log-span {
+    font-size: 15px;
+}
+.login_but{
+  padding: 15px 50px;
+  font-size: 15px;
+}
+.checkbox{
+  height: 20px;
+  width: 20px;
+}
+
+}
+
+@media (max-width: 430px){
+  .teacher{
+    left: 150px;
+  }
+}
+
+@media (max-width: 400px){
+  .teacher{
+    left: 130px;
+  }
+  .reg_text1{
+    font-size: 26px;
+  }
+  .reg_text{
+    font-size: 14px;
+  }
+  form{
+    left: 30px;
+  }
+}
+
+@media (max-width: 380px){
+
+  .teacher{
+    left: 110px;
+  }
+  .reg_text1{
+    font-size: 24px;
+  }
+  .reg_text{
+    font-size: 14px;
+  }
+  .input{
+    padding: 10px;
+    width: 280px;
+    font-size: 15px;
+  }
+  form{
+    left: 31px;
+  }
+}
+
+@media (max-width: 350px){
+  .teacher{
+    left: 90px;
+  }
+  .reg_text1{
+    font-size: 22px;
+  }
+  .reg_text{
+    font-size: 13px;
+  }
+  .input{
+    left: -13px;
+    padding: 5px;
+    width: 250px;
+    font-size: 13px;
+  }
+  form{
+    left: 50px;
+  }
+  .radio{
+    margin-right: 20px;
+    width: 30px;
+    height: 30px;
+  }
+  .checkbox{
+    height: 15px;
+    width: 15px;
+  }
+  .log-span{
+    font-size: 12px;
+  }
+  .buttons{
+    position: relative;
+    left: -20px;
+  }
+}
+
+@media (max-width: 325px){
+  .teacher{
+    left: 70px;
+  }
+}
+
+@media (max-width: 300px){
+  .teacher{
+    left: 50px;
+  }
+  form{
+    left: 35px;
+  }
+  .reg_text1{
+    font-size: 20px;
+  }
+  .reg_text{
+    font-size: 12px;
   }
 }
