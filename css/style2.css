@@ -434,6 +434,14 @@ form{
    form{
     left: 225px;
    }
+  .reg_text1{
+    position:relative;
+    left:0;
+  }
+  .reg_text{
+    position:relative;
+    left:0;
+  }
 }
 
 @media (max-width: 1366px)/*and (max-height: 625px)*/{
@@ -447,6 +455,14 @@ form{
 form{
   left: 205px;
 }
+  .reg_text1{
+    position:relative;
+    left:0;
+  }
+  .reg_text{
+    position:relative;
+    left:0;
+  }
 }
 
 @media (max-width: 1024px)/*and (max-height: 625px)*/{
